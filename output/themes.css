@@ -1,0 +1,93 @@
+.CopydefBtnNormal0dafcac8a40b944 {
+  background-color: 4b88f1ff;
+  color: ffffffff;
+  font-size: 150px;
+  border-radius: 10px;
+}
+
+.defBtnFocus {
+  background-color: 6fa0f4ff;
+  color: ffffffff;
+  font-size: 150px;
+  border-radius: 0px;
+}
+
+.defBtnNormal {
+  background-color: 4b88f1ff;
+  color: ffffffff;
+  font-size: 150px;
+  border-radius: 0px;
+}
+
+.sknLblDescription {
+  background-color: 00000000;
+  color: 575757ff;
+  font-size: 92px;
+  border-radius: 0px;
+}
+
+.sknLblRowHeading {
+  background-color: 00000000;
+  color: 000000ff;
+  font-size: 160px;
+  border-radius: 0px;
+}
+
+.sknLblStrip {
+  background-color: 4b88f1ff;
+  color: 4b88f1ff;
+  font-size: 70px;
+  border-radius: 0px;
+}
+
+.sknLblTimeStamp {
+  background-color: 00000000;
+  color: 8e8e8eff;
+  font-size: 92px;
+  border-radius: 0px;
+}
+
+.sknSampleRowTemplate {
+  background-color: ffffffff;
+  border-radius: 0px;
+}
+
+.sknSampleSectionHeaderTemplate {
+  background-color: ffffffff;
+  border-radius: 0px;
+}
+
+.sknSectionHeaderLabelSkin {
+  background-color: 00000000;
+  color: 000000ff;
+  font-size: 160px;
+  border-radius: 0px;
+}
+
+.slDynamicNotificationForm {
+  background-color: 000000;
+}
+
+.slFbox {
+  background-color: 00000000;
+  border-radius: 0px;
+}
+
+.slForm {
+  background-color: ffffff;
+}
+
+.slStaticNotificationForm {
+  background-color: 000000;
+}
+
+.slTitleBar {
+  background-color: ffffff;
+  color: 333333;
+  font-size: 100px;
+}
+
+.slWatchForm {
+  background-color: 000000;
+}
+

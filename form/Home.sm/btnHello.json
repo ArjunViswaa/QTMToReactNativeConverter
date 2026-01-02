@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s3107773f6d047dbb85a29d5c6464574",
+    "_text_": "Hello! Click Me",
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s991d30052fd49a7b482bac7542d7958",
+    "id": "btnHello",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dc79184467504c2faf6424aaa6132cf9",
+    "name": "kony.ui.Button",
+    "parent": "flxMain",
+    "pf": "Home",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}
