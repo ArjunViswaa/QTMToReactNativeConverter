@@ -1,93 +1,85 @@
 .CopydefBtnNormal0dafcac8a40b944 {
-  background-color: 4b88f1ff;
-  color: ffffffff;
+  background-color: #4b88f1ff;
+  color: #ffffffff;
   font-size: 150px;
+  border-width: 1px;
   border-radius: 10px;
+  border-color: #ffffffff;
 }
 
 .defBtnFocus {
-  background-color: 6fa0f4ff;
-  color: ffffffff;
+  background-color: #6fa0f4ff;
+  color: #ffffffff;
   font-size: 150px;
-  border-radius: 0px;
 }
 
 .defBtnNormal {
-  background-color: 4b88f1ff;
-  color: ffffffff;
+  background-color: #4b88f1ff;
+  color: #ffffffff;
   font-size: 150px;
-  border-radius: 0px;
 }
 
 .sknLblDescription {
-  background-color: 00000000;
-  color: 575757ff;
+  background-color: #00000000;
+  color: #575757ff;
   font-size: 92px;
-  border-radius: 0px;
 }
 
 .sknLblRowHeading {
-  background-color: 00000000;
-  color: 000000ff;
+  background-color: #00000000;
+  color: #000000ff;
   font-size: 160px;
-  border-radius: 0px;
 }
 
 .sknLblStrip {
-  background-color: 4b88f1ff;
-  color: 4b88f1ff;
+  background-color: #4b88f1ff;
+  color: #4b88f1ff;
   font-size: 70px;
-  border-radius: 0px;
 }
 
 .sknLblTimeStamp {
-  background-color: 00000000;
-  color: 8e8e8eff;
+  background-color: #00000000;
+  color: #8e8e8eff;
   font-size: 92px;
-  border-radius: 0px;
 }
 
 .sknSampleRowTemplate {
-  background-color: ffffffff;
-  border-radius: 0px;
+  background-color: #ffffffff;
 }
 
 .sknSampleSectionHeaderTemplate {
-  background-color: ffffffff;
-  border-radius: 0px;
+  background-color: #ffffffff;
 }
 
 .sknSectionHeaderLabelSkin {
-  background-color: 00000000;
-  color: 000000ff;
+  background-color: #00000000;
+  color: #000000ff;
   font-size: 160px;
-  border-radius: 0px;
 }
 
 .slDynamicNotificationForm {
-  background-color: 000000;
+  background-color: #000000;
 }
 
 .slFbox {
-  background-color: 00000000;
-  border-radius: 0px;
+  background-color: #00000000;
 }
 
 .slForm {
-  background-color: ffffff;
+  background-color: #ffffff;
 }
 
 .slStaticNotificationForm {
-  background-color: 000000;
+  background-color: #000000;
 }
 
 .slTitleBar {
-  background-color: ffffff;
-  color: 333333;
+  background-color: #ffffff;
+  color: #333333;
   font-size: 100px;
 }
 
 .slWatchForm {
-  background-color: 000000;
+  background-color: #000000;
 }
 

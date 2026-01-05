@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { generateCSSFromThemes } = require('./util/themeUtil');
+const { buildQuantumTree, convertQuantumToJSX } = require('./util/formsUtil');
 
 const formDir = path.join(__dirname, "form", "Home.sm");
 const controllerDir = path.join(__dirname, "controller", "HomeController");
@@ -29,6 +30,7 @@ themes.forEach(theme => {
     const themeData = fs.readFileSync(themePath, "utf8");
     themesList.push({
       themeName: theme,
+      themeId: JSON.parse(themeData).kuid,
       data: themeData
     });
 });
@@ -43,3 +45,11 @@ console.log("🎨 themes.css generated successfully...");
 
 console.log("Total files loaded:", formWidgets.length);
 console.log("Total themes loaded:", themesList.length);
+
+// Build Quantum Tree
+// console.log(JSON.stringify(buildQuantumTree(formWidgets), null, 2));
+
+let JSXOutput = convertQuantumToJSX(buildQuantumTree(formWidgets), themesList);
+const outputRNForm = path.join(__dirname, "output", "Form.jsx");
+fs.writeFileSync(outputRNForm, JSXOutput, "utf8");
+console.log("JSX file for the form generated successfully...");

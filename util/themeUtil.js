@@ -4,21 +4,29 @@ const skinToCSSClass = (skinName, skinObj) => {
   let css = `.${className} {\n`;
 
   if (skinObj.background_color) {
-    css += `  background-color: ${skinObj.background_color};\n`;
+    css += `  background-color: #${skinObj.background_color};\n`;
   }
 
   if (skinObj.font_color) {
-    css += `  color: ${skinObj.font_color};\n`;
+    css += `  color: #${skinObj.font_color};\n`;
   }
 
   if (skinObj.font_size) {
     css += `  font-size: ${skinObj.font_size}px;\n`;
   }
 
-  if (skinObj.border_style) {
-    css += `  border-radius: ${
-      skinObj.border_style === "rc" ? "10" : "0"
-    }px;\n`;
+  if (skinObj.border_width > 0) {
+    css += `  border-width: ${skinObj.border_width}px;\n`;
+
+    if (skinObj.border_style) {
+      css += `  border-radius: ${
+        skinObj.border_style === "rc" ? "10" : "0"
+      }px;\n`;
+    }
+
+    if (skinObj.border_color) {
+      css += `  border-color: #${skinObj.border_color};\n`;
+    }
   }
 
   if (skinObj.padding) {
